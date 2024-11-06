@@ -1,0 +1,121 @@
+body{
+    display:grid;
+    height: 100vh;
+    place-items: center;
+}
+.container
+{    
+    border-radius: 6px;
+    background:gray;
+    box-shadow:  7px 7px 42px #0a0909,
+                 -7px -7px 42px #111111;    
+    width: 500px;
+    height: 360px;
+    padding: 30px;
+}    
+.keys
+{   
+    display:grid;    
+    grid-template-columns: repeat(4,1fr);    
+    grid-gap: 15px;
+    padding: 10px;
+    margin:auto;
+}   
+.button 
+{
+    border-color: #0e0e0e;
+    height: 60px;
+    padding: 9px;
+    background-color: #fff;
+    border-radius: 9px;
+    font-size: 30px;
+    color: #000000;
+    background-image: linear-gradient(to bottom, transparent, transparent 50%, rgba(203, 236, 209, 0.04));
+}
+
+input
+{
+    outline: none;
+    border: 1px solid ;
+}
+.button:hover 
+{
+    background-color: #ddd5d5;
+}
+
+.operator {
+    border-radius: 9px;
+    border-color: #0e0e0e;
+    font-size: 30px;
+    background-color: rgb(111, 201, 111);   
+}
+
+.operator:hover
+{
+    background-color: rgb(92, 226, 92);
+}
+
+.clear 
+{
+    border-radius: 9px;
+    font-size: 20px;
+    background-color: #f0595f;
+    border-color: #060606;
+    color: #0b0b0b;
+    width: 150px;
+    height: 58px;  
+}
+.clear:hover {
+    background-color: #db2d45;
+}
+
+    
+.equal-sign {
+        font-size: 18px;
+        background-color: #07658e;
+        border-color: #0e0e0e;
+        color: #030303;
+    
+}
+    
+    .equal-sign:hover {
+    
+        background-color: #3895d3;
+    
+    }
+    
+    .screen{
+    
+        background-color:rgb(167, 224, 239);
+        color: black;
+    
+        font-size: 20px;
+    
+        width: 55%;
+    
+        height: 35px;
+    
+        cursor: default;
+    
+        padding: 10px; 
+    
+        padding-left: 40%;
+        
+        margin: auto;
+        border-radius: 3px;
+    
+        margin-bottom: 1px;
+    }
+.delete 
+{
+    border-radius: 9px;
+    font-size: 20px;
+    background-color: #f0595f;
+    border-color: #000000;
+    color: #0b0b0b;
+    width: 100px;
+    height: 55px;  
+}
+.delete:hover {
+    background-color: #db2d45;
+}
